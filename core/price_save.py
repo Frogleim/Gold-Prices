@@ -9,7 +9,7 @@ def get_prices():
         price = r.json()['data']
         return price
     except Exception:
-        return 'Somthing went wrong'
+        return 'Something went wrong'
 
 
 if __name__ == '__main__':
